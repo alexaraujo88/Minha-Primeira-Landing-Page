@@ -1,17 +1,13 @@
 @import url(./reset.css);
 /* body */
 body {
-  background-color: black;
+  background-color: #000000;
 }
 /* body */
 
 /* Main */
 .banner {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(49, 168, 221, 0.2),
-      rgba(0, 0, 0, 0.6)
-    ),
+  background-image: linear-gradient(#00000099, #31a8dd33, #00000099),
     url(../images/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +34,7 @@ div {
 }
 
 .banner .logo {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #00000033;
   height: 260px;
   width: 260px;
   margin: auto;
@@ -157,7 +153,7 @@ h2 {
 }
 
 p {
-  color: white;
+  color: #ffffff;
 }
 
 p {
@@ -200,14 +196,14 @@ div {
 }
 
 #course-content .modules-list .module {
-  color: white;
+  color: #ffffff;
   width: 530px;
   margin: 0 auto 24px;
   border: 1px solid #33a8db;
   background-color: #252525;
   padding: 16px;
   border-radius: 100px;
-  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: inset -5px 6px 8px #000000b3;
 }
 
 #course-content {
@@ -243,7 +239,7 @@ section {
 }
 
 p {
-  color: white;
+  color: #ffffff;
 }
 
 p {
@@ -298,10 +294,7 @@ section {
 footer {
   padding: 60px 0;
   text-align: center;
-  background-image: linear-gradient(
-    rgba(50, 168, 219, 0),
-    rgba(50, 168, 219, 0.2)
-  );
+  background-image: linear-gradient(#32a8db00, #32a8db33);
   border-top: 1px solid #33a8db80;
 }
 
